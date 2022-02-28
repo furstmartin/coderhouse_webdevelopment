@@ -265,6 +265,19 @@
   }
   
   .boton-galery { grid-area: boton-galery; }
+ 
+  /* ANIMACION TITULO ----------------------------------------------*/
+
+  @keyframes aparecerDesaparecer {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+  .encabezado_main {
+    animation-name: aparecerDesaparecer;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-duration: 1s;
+  }
 
   /* GRID - FOOTER ----------------------------------------------*/
   
