@@ -4,69 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NFT Marketplace</title>
-    <link rel="shortcut icon" href="assets/img/fv_nft.png">
-   	<!-- CSS ANIMATE -->
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!-- CSS ESTILO -->
-    <link href="css/estilo.css" rel="stylesheet" />
-    <style>
-		/*
-		selectora { bloque de codigo
-			propiedad: valor;
-		 }
-		 */
-	  </style>
+    <link rel="shortcut icon" href="../assets/img/fv_nft.png">
+    <title>Profile</title>
+    <!-- CDN CSS BOOTSRAP -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS ESTILO ULTIMO VA NUESTRO ESTILO. SIEMPRE!-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		<link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<header class="container-fluid">
+		<!-- nuestra NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="../assets/img/nft.png" alt="logo" class="img_logo-fluid">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Create</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Galery
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Gaming</a>
+              <a class="dropdown-item" href="#">Art</a>
+              <a class="dropdown-item" href="#">Crypto</a>
+              <a class="dropdown-item" href="#">Sports</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">All Categories</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Page Content -->
     <div class="container">
-        <div class="top">
-          <div class="logo-top">
-            <img src="assets/img/logo_nft.png" alt="logo sitio">
-          </div>
-          <div class="top-menu">
-            <nav>
-                <ul>
-                    <li><a style="text-decoration:none"href="index.html">Home</a></li>
-                    <li><a style="text-decoration:none" href="pages/galery.html">Galery</a>
-                        <ul>
-                            <li><h3 href="">All Categories</h3></li>
-                            <li><h3 href="">Gaming</h></li>
-                            <li><h3 href="">Art</h3></li>
-                            <li><h3 href="">Crypto</h3></li>
-                            <li><h3 href="">Sports</h3></li>
-                        </ul>
-                    </li>
-                    <li><a style="text-decoration:none" href="pages/profile.html">Profile</a></li>
-                    <li><a style="text-decoration:none" href="pages/create.html">Create</a></li>
-                    <li><a style="text-decoration:none" href="pages/getintouch.html">Contact</a></li>
-                    <li><a style="text-decoration:none" href="https://www.google.com" target="_blank">Search</a></li>
-                </ul>
-            </nav>
-          </div>
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4">The First Decentralized NFT Marketplace</h1>
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-8">
+          <img class="img-fluid" src="assets/img/apes4x4_750.png" alt="4 APES IMAGE">
         </div>
-        <div class="main">
-          <div class="Flyer-main">
-              <img src="assets/img/apes4x4.png" alt="4 APES IMAGE">
-          </div>
-          <h1 class="titulo-main encabezado_main">The First Decentralized NFT Marketplace</h1>
-          <div class="subtitulo-main">
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo optio dolore eius dolor, fuga, veniam voluptatem et suscipit quas facere tempora incidunt cupiditate officia accusantium maiores quam officiis quisquam eum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis nostrum officia enim laudantium, vitae fugiat, ducimus ab debitis itaque, alias optio voluptate? Laborum nemo odio illo magni illum iure aut! Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Nostrum doloremque, aperiam accusamus. Quod, consequatur! Nam distinctio laborum eius officiis, explicabo ipsa, nostrum at aperiam adipisci delectus iusto deserunt repellendus, harum. </h2>
-          </div>
-          <div class="boton-galery"></div>
+
+        <div class="col-md-4">
+          <h3 class="my-3">NFT Marketplace</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
         </div>
-        <div class="footer">
-          <div class="footer-menu">
-            <img src="assets/img/fbk_logo.png" alt="facebook_logo">
-			      <img src="assets/img/tw_logo.png" alt="twitter">
-			      <img src="assets/img/in_logo.png" alt="linkedin">
-          </div>
+
+      </div>
+      <!-- /.row -->
+  </main>
+  <!-- Footer -->
+  <footer class="footer-07">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-12 text-center">
+          <h2 class="footer-heading"><a href="#" class="logo">NFT4all.io</a></h2>
+          <p class="menu">
+            <a href="#">Home</a>
+            <a href="#">Create</a>
+            <a href="#">Galery</a>
+            <a href="#">Contact</a>
+          </p>
+          <ul class="ftco-footer-social p-0">
+            <li class="ftco-animate"><img class="img-fluid" src="assets/img/tw_logo.png" alt="Logo Twitter></li>
+            <li class="ftco-animate"><img class="img-fluid" src="assets/img/fbk_logo.png" alt="Logo Twitter></li>
+            <li class="ftco-animate"><img class="img-fluid" src="assets/img/in_logo.png" alt="Logo Twitter></li>
+          </ul>
         </div>
-    </div>   
-    <!-- SCRIPT INIT ANIMATIONS -->
-    <script src="js/wow.min.js"></script>
-    <script>
-       new WOW().init();
-    </script>
+      </div>
+      <div class="row mt-5">
+ 
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- Footer -->
+  </div>   
+	<!-- JS BOOTSRAP-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> 
+	<!-- AOS JS -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	 <script>
+	   AOS.init();
+	 </script>
   </body>
 </html>
