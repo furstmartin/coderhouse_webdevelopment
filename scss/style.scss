@@ -1,3 +1,14 @@
+// USO DE PARSHAL DONDE SEPARO LOS SCSS //
+
+@import "../css/colores";
+@import "../css/navbar";
+@import "../css/colores";
+@import "../css/root";
+@import "../css/operadores";
+@import "../css/condicionales";
+@import "../css/map";
+@import "../css/extend";
+@import "../css/mixin";
 
 .bg-light {
    background-color:blue;

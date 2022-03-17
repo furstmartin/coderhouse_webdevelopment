@@ -1,0 +1,9 @@
+@mixin colorYbackground ($color, $background, $fSize){
+    color:$color;
+    background-color: $background;
+    font-size: $fSize;
+}
+
+h1{
+    @include colorYbackground(rgb(13, 0, 255),rgb(128, 128, 49), 40px )
+}

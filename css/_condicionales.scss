@@ -1,0 +1,19 @@
+$dispositive:desktop;
+
+body {
+    @if $dispositive == mobile {
+        @media only screen and (max-with: 768){
+            h1{font-size: 50px;}
+            h3{font-size: 20px;}
+        }
+    }@else if $dispositive == desktop {
+        @media only screen and (min-width: 1023px){
+            h1{font-size:50px;}
+            h3{font-size:30px;}
+        }
+    }@else {
+        h1{font-size:10px;}
+        h3{font-size:5px;}
+    }
+
+}
