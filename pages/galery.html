@@ -1,37 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="../assets/img/fv_nft.png">
-	<title>Galery</title>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- META DATA DESCRIPTION + KEYWORDS FOR INDEX FOR GOOGLE -->
+		<meta name="description" content="NFT4all es un un market place de NFT.">
+		<meta name="keywords" content="NFT4all descentralizado, social, creacion de contenido, contenido, blockchain, defi, nft, dao, ethereum, crypto">
+		<link rel="shortcut icon" href="assets/img/fv_nft.png">
+		<title>NTF4ALL - NFT MARKETPLACE</title>
+		<!-- CDN CSS BOOTSRAP -->
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<!-- AOS CSS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<!-- CSS ESTILO ULTIMO VA NUESTRO ESTILO. SIEMPRE!-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+			<link rel="stylesheet" href="css/ionicons.min.css">
+			<link rel="stylesheet" href="/scss/style.css">
+	</head>
 <body>
-	<!-- fila de logo + nav --> 
-	<header>
-		<!-- LOGO -->
-		<div>
-			<img src="../assets/img/logo_nft.png" alt="logo">
-		</div>
-		<!-- NAVIGATION MENU-->
-		<nav>
-			<ul>
-				<li><a href="../index.html">Home</a></li>
-				<li><h1>All Categories</h1></li>
-				<li><h1>Gaming</h1></li>
-				<li><h1>Art</h1></li>
-				<li><h1>Crypto</h1></li>
-				<li><h1>Sports</h1></li>
-				<li><a href="https://www.google.com" target="_blank">Search</a></li>
-				<li><h1>Filters</h1></li>
-			</ul>
-			</ul>
-		</nav>
-	</header>
-	<!-- cierre de fila logo + nav -->
-	<!-- fila de información de mi sitio -->
-	<section>
+	
+	 	  <!-- NavBar using bootstrap -->
+		   <header class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <img src="/assets/img/nft.png" width="40" height="30" alt="logo" class="img_logo-fluid">
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+				  
+				  <li class="nav-item">
+					<a class="nav-link" href="/index.html">Home <span class="sr-only"></span></a>
+				  </li>
+
+				  <li class="nav-item">
+					<a class="nav-link" href="profile.html">Profile</a>
+				  </li>
+				  
+				  <li class="nav-item">
+					<a class="nav-link" href="create.html">Create</a>
+				  </li>
+				  
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="galery.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Galery
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="galery.html">Gaming</a>
+					  <a class="dropdown-item" href="galery.html">Art</a>
+					  <a class="dropdown-item" href="galery.html">Crypto</a>
+					  <a class="dropdown-item" href="galery.html">Sports</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="galery.html">All Categories</a>
+					</div>
+				  </li>
+				  
+				  <li class="nav-item">
+					<a class="nav-link" href="getintouch.html">Contact</a>
+				  </li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+				  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			  </div>
+			</nav>
+		  </header>
+
+
+
+
+	<!-- <section>
 		<article>
 			<table border="1" cellpadding="1" cellspacing="1">
 				<tr>
@@ -114,64 +155,187 @@
 			</table>
 		</article>
 	</section>
-	<!-- inicio de footer --> 
-	<footer id="footer_id">
-		<br>
-		<article>
-			<table border="1" cellpadding="1" cellspacing="1">
-				<tr>
-					<th>Logo</th>
-					<th>Marketplace</th>
-					<th>My Account</th>
-					<th>Stay in the loop</th>
-				</tr>
-				<tr>
-					<td>The world´s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover digital items</td>
-					<td>All NFTs</td>
-					<td>Profile</td>
-					<td>join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.</td>
-				</tr>
-				<tr>
-					<td></td>
-					<td>New</td>
-					<td>Favorite</td>
-					<td>Contact us</td>
-				</tr>
-				<tr>
-					<td></td>
-					<td>Art</td>
-					<td>My Collections</td>
-					<td>RRSS</td>
-				</tr>
-				<tr>
-					<td></td>
-					<td>Sports</td>
-					<td>Settings</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td>Utility</td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td>Music</td>
-					<td></td>
-					<td></td>
-				</tr>
-			</table>
-		</article>
-		<div>
-			<img src="../assets/img/fbk_logo.png" alt="facebook_logo">
+	 -->
+
+
+<main>
+<div class="main-container">
+
+<!-- Page Content -->
+<div class="container-fluid">
+
+	<!-- Portfolio Item Heading -->
+	<h1 class="my-4">NFTs Gallery</h1>
+
+	<!-- Portfolio Item Row -->
+	<div class="gallery-container">
+	
+	<div class="NFT-card">
+		<img src="../assets/img/ape1.png" alt="">
+		<div class="NFT-description">
+			<p class="user">Tincho.eth</p>
+			<p class="price">0.150 eth</p>
+			<p class="time">1h 59m 1s left</p>
 		</div>
-		<div>
-			<img src="../assets/img/tw_logo.png" alt="twitter">
+	</div>
+	<div class="NFT-card">
+		<img src="../assets/img/ape2.png" alt="">
+		<div class="NFT-description">
+			<p class="user">Tincho.eth</p>
+			<p class="price">0.150 eth</p>
+			<p class="time">1h 59m 1s left</p>
 		</div>
-		<div>
-			<img src="../assets/img/in_logo.png" alt="linkedin">
+	</div>
+	<div class="NFT-card">
+		<img src="../assets/img/ape3.png" alt="">
+		<div class="NFT-description">
+			<p class="user">Tincho.eth</p>
+			<p class="price">0.150 eth</p>
+			<p class="time">1h 59m 1s left</p>
 		</div>
+	</div>
+	<div class="NFT-card">
+		<img src="../assets/img/ape4.png" alt="">
+		<div class="NFT-description">
+			<p class="user">Tincho.eth</p>
+			<p class="price">0.150 eth</p>
+			<p class="time">1h 59m 1s left</p>
+		</div>
+	</div>
+	<div class="NFT-card">
+		<img src="../assets/img/ape5.png" alt="">
+		<div class="NFT-description">
+			<p class="user">Tincho.eth</p>
+			<p class="price">0.150 eth</p>
+			<p class="time">1h 59m 1s left</p>
+		</div>
+	</div>
+	<div class="NFT-card">
+		<img src="../assets/img/ape6.png" alt="">
+		<div class="NFT-description">
+			<p class="user">Tincho.eth</p>
+			<p class="price">0.150 eth</p>
+			<p class="time">1h 59m 1s left</p>
+		</div>
+	</div>
+	<div class="NFT-card">
+		<img src="../assets/img/ape7.png" alt="">
+		<div class="NFT-description">
+			<p class="user">Tincho.eth</p>
+			<p class="price">0.150 eth</p>
+			<p class="time">1h 59m 1s left</p>
+		</div>
+	</div>
+	<div class="NFT-card">
+		<img src="../assets/img/ape8.png" alt="">
+		<div class="NFT-description">
+			<p class="user">Tincho.eth</p>
+			<p class="price">0.150 eth</p>
+			<p class="time">1h 59m 1s left</p>
+		</div>
+	</div>
+	
+
+	</div>
+	<!-- /.row -->
+</div>
+</main
+	
+
+
+<div class="container-fluid">
+	<footer class="py-4">
+	  <div id="footer1" class="row ">
+
+		<div class="col-3">
+		  <h5>NFT4ALL</h5>
+		  <p>The world's first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover digital items</p>
+		  <ul class="list-unstyled d-flex social-container">
+			<li><a href=""><img class="social-icon" src="../assets/img/fbk_logo.png" alt="facebook_logo"></a></li>
+			<li><a href=""><img class="social-icon" src="../assets/img/tw_logo.png" alt="twitter"></a></li>
+			<li><a href=""><img class="social-icon" src="../assets/img/in_logo.png" alt="linkedin"></a></li>
+		  </ul>
+		</div>
+  
+		<div class="col-2">
+		  <h5>Marketplace</h5>
+		  <ul class="nav flex-column">
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">All NFTs</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">New</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Art</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sports</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Utility</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Music</a></li>
+		  </ul>
+		</div>
+
+		<div class="col-2">
+		  <h5>Menu</h5>
+		  <ul class="nav flex-column">
+			<li class="nav-item mb-2"><a href="profile.html" class="nav-link p-0 text-muted">Profile</a></li>
+			<li class="nav-item mb-2"><a href="create.html" class="nav-link p-0 text-muted">Create</a></li>
+			<li class="nav-item mb-2"><a href="galery.html" class="nav-link p-0 text-muted">Gallery</a></li>
+			<li class="nav-item mb-2"><a href="getintouch.html" class="nav-link p-0 text-muted">Contact</a></li>
+		  </ul>
+		</div>
+
+  
+		<div class="col-4 offset-1">
+		  <form>
+			<h5>Stay in de Loop</h5>
+			<p>join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.</p>
+			<div class="d-flex w-100 gap-2">
+			  <label for="newsletter1" class="visually-hidden">Email address</label>
+			  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+			  <button class="btn btn-primary" type="button">Subscribe</button>
+			</div>
+		  </form>
+		</div>
+	  </div>
+  
+	  <div class="d-flex justify-content-between py-4 my-4 border-top">
+		<p>&copy; 2022 Company, Inc. All rights reserved.</p>
+		
+	  </div>
+
+	  <!-- footer2 -->
+	  <div class="footer2-container hide">
+		<div class="footer2">
+			<h5>NFT4ALL</h5>
+			<div class="menu2">
+				<ul class="nav2">
+				  <li class="nav-item mb-2"><a href="profile.html" class="nav-link p-0 text-muted">Profile</a></li>
+				  <li class="nav-item mb-2"><a href="create.html" class="nav-link p-0 text-muted">Create</a></li>
+				  <li class="nav-item mb-2"><a href="galery.html" class="nav-link p-0 text-muted">Gallery</a></li>
+				  <li class="nav-item mb-2"><a href="getintouch.html" class="nav-link p-0 text-muted">Contact</a></li>
+				</ul>
+			  </div>
+			<ul class="social2 d-flex social-container">
+			  <li><a href=""><img class="social-icon" src="../assets/img/fbk_logo.png" alt="facebook_logo"></a></li>
+			  <li><a href=""><img class="social-icon" src="../assets/img/tw_logo.png" alt="twitter"></a></li>
+			  <li><a href=""><img class="social-icon" src="../assets/img/in_logo.png" alt="linkedin"></a></li>
+			</ul>
+		  </div>
+		  <div class="d-flex justify-content-between py-4 my-4 border-top">
+			<p>&copy; 2022 Company, Inc. All rights reserved.</p>
+	  </div>
+
+
 	</footer>
+</div>
+
+	<!-- JS BOOTSRAP-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<!-- AOS JS -->
+	  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	   <script>
+		 AOS.init();
+	   </script>
+
 </body>
 </html>

@@ -4,69 +4,194 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NFT Marketplace</title>
+    <!-- META DATA DESCRIPTION + KEYWORDS FOR INDEX FOR GOOGLE -->
+    <meta name="description" content="NFT4all es un un market place de NFT.">
+    <meta name="keywords" content="NFT4all descentralizado, social, creacion de contenido, contenido, blockchain, defi, nft, dao, ethereum, crypto">
     <link rel="shortcut icon" href="assets/img/fv_nft.png">
-   	<!-- CSS ANIMATE -->
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!-- CSS ESTILO -->
-    <link href="css/estilo.css" rel="stylesheet" />
-    <style>
-		/*
-		selectora { bloque de codigo
-			propiedad: valor;
-		 }
-		 */
-	  </style>
+    <title>NTF4ALL - NFT MARKETPLACE</title>
+    <!-- CDN CSS BOOTSRAP -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS ESTILO ULTIMO VA NUESTRO ESTILO. SIEMPRE!-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		<link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="scss/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="top">
-          <div class="logo-top">
-            <img src="assets/img/logo_nft.png" alt="logo sitio">
-          </div>
-          <div class="top-menu">
-            <nav>
-                <ul>
-                    <li><a style="text-decoration:none"href="index.html">Home</a></li>
-                    <li><a style="text-decoration:none" href="pages/galery.html">Galery</a>
-                        <ul>
-                            <li><h3 href="">All Categories</h3></li>
-                            <li><h3 href="">Gaming</h></li>
-                            <li><h3 href="">Art</h3></li>
-                            <li><h3 href="">Crypto</h3></li>
-                            <li><h3 href="">Sports</h3></li>
-                        </ul>
-                    </li>
-                    <li><a style="text-decoration:none" href="pages/profile.html">Profile</a></li>
-                    <li><a style="text-decoration:none" href="pages/create.html">Create</a></li>
-                    <li><a style="text-decoration:none" href="pages/getintouch.html">Contact</a></li>
-                    <li><a style="text-decoration:none" href="https://www.google.com" target="_blank">Search</a></li>
-                </ul>
-            </nav>
-          </div>
+
+  <!-- NavBar using bootstrap -->
+	<header class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="assets/img/nft.png" width="40" height="30" alt="logo" class="img_logo-fluid">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/profile.html">Profile</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/create.html">Create</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Galery
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="pages/galery.html">Gaming</a>
+              <a class="dropdown-item" href="pages/galery.html">Art</a>
+              <a class="dropdown-item" href="pages/galery.html">Crypto</a>
+              <a class="dropdown-item" href="pages/galery.html">Sports</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="pages/galery.html">All Categories</a>
+            </div>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/getintouch.html">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="main-container">
+
+    <!-- Page Content -->
+    <div class="container-fluid">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4">The First Decentralized NFT Marketplace</h1>
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-8">
+          <img class="img-fluid" src="assets/img/appes.png" alt="4 APES IMAGE">
         </div>
-        <div class="main">
-          <div class="Flyer-main">
-              <img src="assets/img/apes4x4.png" alt="4 APES IMAGE">
-          </div>
-          <h1 class="titulo-main encabezado_main">The First Decentralized NFT Marketplace</h1>
-          <div class="subtitulo-main">
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo optio dolore eius dolor, fuga, veniam voluptatem et suscipit quas facere tempora incidunt cupiditate officia accusantium maiores quam officiis quisquam eum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis nostrum officia enim laudantium, vitae fugiat, ducimus ab debitis itaque, alias optio voluptate? Laborum nemo odio illo magni illum iure aut! Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Nostrum doloremque, aperiam accusamus. Quod, consequatur! Nam distinctio laborum eius officiis, explicabo ipsa, nostrum at aperiam adipisci delectus iusto deserunt repellendus, harum. </h2>
-          </div>
-          <div class="boton-galery"></div>
+
+        <div class="col-md-4">
+          <h3 class="my-3">NFT Marketplace</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
         </div>
-        <div class="footer">
-          <div class="footer-menu">
-            <img src="assets/img/fbk_logo.png" alt="facebook_logo">
-			      <img src="assets/img/tw_logo.png" alt="twitter">
-			      <img src="assets/img/in_logo.png" alt="linkedin">
-          </div>
+
+      </div>
+      <!-- /.row -->
+    </div>
+  </main>
+
+
+<!--FOOTER -->
+
+  <div class="container-fluid">
+  <footer class="py-4">
+    <div id="footer1" class="row ">
+
+    <div class="col-3">
+      <h5>NFT4ALL</h5>
+      <p>The world's first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover digital items</p>
+      <ul class="list-unstyled d-flex social-container">
+      <li><a href=""><img class="social-icon" src="../assets/img/fbk_logo.png" alt="facebook_logo"></a></li>
+      <li><a href=""><img class="social-icon" src="../assets/img/tw_logo.png" alt="twitter"></a></li>
+      <li><a href=""><img class="social-icon" src="../assets/img/in_logo.png" alt="linkedin"></a></li>
+      </ul>
+    </div>
+  
+    <div class="col-2">
+      <h5>Marketplace</h5>
+      <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">All NFTs</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">New</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Art</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sports</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Utility</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Music</a></li>
+      </ul>
+    </div>
+
+    <div class="col-2">
+      <h5>Menu</h5>
+      <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="profile.html" class="nav-link p-0 text-muted">Profile</a></li>
+      <li class="nav-item mb-2"><a href="create.html" class="nav-link p-0 text-muted">Create</a></li>
+      <li class="nav-item mb-2"><a href="galery.html" class="nav-link p-0 text-muted">Gallery</a></li>
+      <li class="nav-item mb-2"><a href="getintouch.html" class="nav-link p-0 text-muted">Contact</a></li>
+      </ul>
+    </div>
+
+  
+    <div class="col-4 offset-1">
+      <form>
+      <h5>Stay in de Loop</h5>
+      <p>join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.</p>
+      <div class="d-flex w-100 gap-2">
+        <label for="newsletter1" class="visually-hidden">Email address</label>
+        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+        <button class="btn btn-primary" type="button">Subscribe</button>
+      </div>
+      </form>
+    </div>
+    </div>
+  
+    <div class="d-flex justify-content-between py-4 my-4 border-top">
+    <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+    
+    </div>
+
+    <!-- footer2 -->
+    <div class="footer2-container hide">
+    <div class="footer2">
+      <h5>NFT4ALL</h5>
+      <div class="menu2">
+        <ul class="nav2">
+          <li class="nav-item mb-2"><a href="profile.html" class="nav-link p-0 text-muted">Profile</a></li>
+          <li class="nav-item mb-2"><a href="create.html" class="nav-link p-0 text-muted">Create</a></li>
+          <li class="nav-item mb-2"><a href="galery.html" class="nav-link p-0 text-muted">Gallery</a></li>
+          <li class="nav-item mb-2"><a href="getintouch.html" class="nav-link p-0 text-muted">Contact</a></li>
+        </ul>
         </div>
-    </div>   
-    <!-- SCRIPT INIT ANIMATIONS -->
-    <script src="js/wow.min.js"></script>
-    <script>
-       new WOW().init();
-    </script>
+      <ul class="social2 d-flex social-container">
+        <li><a href=""><img class="social-icon" src="../assets/img/fbk_logo.png" alt="facebook_logo"></a></li>
+        <li><a href=""><img class="social-icon" src="../assets/img/tw_logo.png" alt="twitter"></a></li>
+        <li><a href=""><img class="social-icon" src="../assets/img/in_logo.png" alt="linkedin"></a></li>
+      </ul>
+      </div>
+      <div class="d-flex justify-content-between py-4 my-4 border-top">
+      <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+    </div>
+
+
+  </footer>
+  </div>
+
+  <!-- Footer -->
+  </div>   
+	<!-- JS BOOTSRAP-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- AOS JS -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	 <script>
+	   AOS.init();
+	 </script>
   </body>
 </html>
