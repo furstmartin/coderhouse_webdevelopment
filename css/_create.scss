@@ -1,0 +1,105 @@
+.create-grid {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 0px 4rem;
+    margin-bottom: 1rem;
+
+    .div-img {
+        width: 100%;
+        grid-area: 2 / 1 / 4 / 5;
+        background-color: grey;
+    }
+
+    .div-title{
+        grid-area: 1 / 1 / 2 / 5;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+
+    }
+
+    .div-options{
+        margin-top: 1rem;
+        grid-area: 4 / 1 / 6 / 5;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-bottom: 1rem;
+
+        h2{
+            font-size: 1.5rem;
+        }
+
+        .fix {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .div-nft{
+        grid-area: 2 / 6 / 5 / 8;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .price {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px 8px;
+        }
+
+        .user{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            margin: 0px 8px;
+                p{
+                    font-weight: bold;
+                    margin: 0px;
+                }
+        }
+
+        .buy{
+            width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin: 0px 8px;
+        p{
+            font-weight: bold;
+            color: rgb(0, 189, 189);
+        }
+        }
+
+    }
+
+
+}
+
+
+// MEDIA QUERIES
+
+@media screen and (max-width: 768px) {
+
+    .create-grid {
+        height: auto;
+        display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       align-items: center;
+    }
+}

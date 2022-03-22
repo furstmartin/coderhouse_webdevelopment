@@ -1,0 +1,62 @@
+.create-grid-contact {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 0px 4rem;
+    margin-bottom: 1rem;
+
+
+    .div-title{
+        grid-area: 1 / 1 / 2 / 5;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+
+    }
+
+    .div-form{
+        grid-area: 2 / 1 / 6 / 5;
+        .form-label {
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .form-control {
+            font-size: 12px;
+            width: 70%;
+            height: 80%;
+            
+        }
+    }
+
+    .div-map {
+        grid-area: 2 / 5 / 6 / 9;
+       
+    }
+
+    .div-title2{
+        grid-area: 1 / 5 / 2 / 9;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+}
+
+// MEDIA QUERIES
+
+@media screen and (max-width: 768px) {
+
+    .create-grid-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+    }
+}
