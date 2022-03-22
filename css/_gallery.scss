@@ -1,0 +1,38 @@
+
+
+.gallery-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+    .NFT-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+        -webkit-box-shadow: 4px 3px 25px 7px rgba(0,0,0,0.3); 
+        box-shadow: 4px 3px 25px 7px rgba(0,0,0,0.3);
+        padding: 1rem;
+        margin: 1rem;
+
+        .NFT-description {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p{
+                margin: 0px;
+            };
+            .time{
+                font-size: 11px;
+                color: gray;
+            }
+        }
+
+    }
+}
