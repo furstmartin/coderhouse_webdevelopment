@@ -9,6 +9,13 @@
 @import "../css/map";
 @import "../css/extend";
 @import "../css/mixin";
+@import "../css/footer";
+@import "../css/main";
+@import "../css/profile";
+@import "../css/gallery";
+@import "../css/create";
+@import "../css/getintouch";
+
 
 .bg-light {
    background-color:blue;
@@ -24,6 +31,7 @@
 
 $font-primary: 'Poppins',Arial, sans-serif;
 $primary: #a3de83;
+
 
 body{
 	font-family: $font-primary;
@@ -43,8 +51,12 @@ h1, h2, h3, h4, h5,
 	line-height: 1.5;
 	font-weight: 400;
 	font-family: $font-primary;
+	text-align: center;
 }
 
+.container {
+	margin: auto;
+}
 
 //COVER BG
 .img,
@@ -107,9 +119,6 @@ textarea.form-control {
 	}
 }
 
-footer{
-	padding: 7em 0;
-}
 
 //FOOTER 07
 .footer-07{
